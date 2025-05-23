@@ -1,0 +1,86 @@
+/* Custom styles for KV Internal Docs */
+
+/* Improve code block readability */
+pre.highlight {
+    background-color: #f6f8fa;
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    padding: 16px;
+    overflow: auto;
+}
+
+/* Make diagrams stand out */
+.mermaid {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 4px;
+    border: 1px solid #e1e4e8;
+    margin: 1rem 0;
+}
+
+/* Improve table readability */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid #e1e4e8;
+}
+
+th {
+    background-color: #f6f8fa;
+}
+
+/* Add styling for notes and warnings */
+.note {
+    background-color: #f6f8fa;
+    border-left: 4px solid #0366d6;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.warning {
+    background-color: #fff5b1;
+    border-left: 4px solid #f9c513;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+/* Improve navigation readability */
+.navigation-list-item {
+    padding: 0.25rem 0;
+}
+
+.navigation-list-item .navigation-list-item {
+    padding-left: 1.5rem;
+}
+
+/* Add some spacing between sections */
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content h4,
+.main-content h5,
+.main-content h6 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Improve readability of inline code */
+code {
+    background-color: #f6f8fa;
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+    font-size: 85%;
+}
+
+/* Add a subtle border to images */
+img {
+    border: 1px solid #e1e4e8;
+    border-radius: 4px;
+    padding: 5px;
+    max-width: 100%;
+}
